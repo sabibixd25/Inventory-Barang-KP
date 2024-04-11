@@ -1,0 +1,13 @@
+{
+  "name": "rendhy/php_dasar",
+  "authors": [
+    {
+      "name": "rendhy",
+      "email": "rediskarendi@gmail.com"
+    }
+  ],
+  "require": {},
+  "scripts": {
+    "server": "php -S localhost:8080"
+  }
+}
