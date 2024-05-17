@@ -18,7 +18,7 @@ hr.star-primary {
 }
 
 .navbar-custom {
-  background: #BDBFC1;
+  background: #bdbfc1;
   font-family: Arial;
   text-transform: uppercase;
   font-weight: 700;
@@ -64,9 +64,9 @@ hr.star-primary {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #E6E7E8;
+  background-color: #e6e7e8;
   color: white;
-  border-color: #E6E7E8;
+  border-color: #e6e7e8;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -95,15 +95,15 @@ section {
 }
 section.bagian1 {
   padding-top: 80px;
-  background: #E6E7E8;
+  background: #e6e7e8;
 }
 section.bagian2 {
-  background: #D2D3D5;
+  background: #d2d3d5;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 section.bagian3 {
-  background: #E6E7E8;
+  background: #e6e7e8;
   padding-top: 100px;
 }
 @media (max-width: 767px) {
@@ -119,9 +119,21 @@ footer {
 footer .footer-above {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #BDBFC1;
+  background-color: #bdbfc1;
 }
 footer .footer-below {
   padding: 20px 0;
-  background-color: #A9ABAE;
+  background-color: #a9abae;
+}
+
+#header {
+  width: 100%;
+  height: 100vh; /* Menggunakan tinggi viewport */
+  overflow: hidden; /* Untuk menghindari pemotongan gambar jika aspek rasionya tidak sesuai */
+}
+
+#header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Untuk menjaga aspek rasio gambar */
 }
